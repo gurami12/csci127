@@ -13,13 +13,27 @@ def num2string(num):
      
      numString = ""
 
-     ###################################
-     ### FILL IN YOUR CODE HERE      ###
-     ### Other than your name above, ###
-     ### this is the only section    ###
-     ### you change in this program. ###
-     ###################################
-
+    if num=="0":
+          print("Zero")
+      if num=="1":
+          print("one")
+      if num=="2":
+          print("two")
+      if num=="3":
+          print("Three")
+      if num=="4":
+          print("Four")
+      if num=="5":
+          print("Five")
+      if num=="6":
+          print("Six")
+      if num=="7":
+          print("Seven")
+      if num=="8":
+          print("Eight")
+      if num=="9":
+          print("Nine")
+   
      return(numString)
 
 
